@@ -30,4 +30,4 @@ assets/screens/     app screenshots in phone frames
 assets/demo.mp4     demo video (2:20) + demo-poster.jpg
 ```
 
-When the apps ship, replace the disabled `.store` buttons in `index.html` with links to the store listings.
+The Android button links to the APK on Google Drive (update the link in both `.store` buttons for new versions). The iOS button stays disabled until the app ships.

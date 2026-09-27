@@ -139,6 +139,10 @@ h1 {
   text-transform: uppercase;
 }
 .store.light { color: var(--navy); background: #fff; border-color: #fff; }
+a.store { cursor: pointer; text-decoration: none; transition: background .15s, transform .15s; }
+a.store:hover { background: rgba(255, 255, 255, .2); transform: translateY(-1px); }
+a.store.light:hover { background: #EEF1FF; }
+.soon.ready { background: #fff; color: var(--blue); text-transform: none; }
 
 .text-link {
   display: inline-block;
