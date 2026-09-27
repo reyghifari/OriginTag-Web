@@ -27,6 +27,7 @@ styles.css          styles (tokens match the Android app theme)
 assets/logo.svg     logo / favicon
 assets/logo.png     social preview image
 assets/screens/     app screenshots in phone frames
+assets/demo.mp4     demo video (2:20) + demo-poster.jpg
 ```
 
 When the apps ship, replace the disabled `.store` buttons in `index.html` with links to the store listings.

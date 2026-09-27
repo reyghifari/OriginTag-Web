@@ -148,6 +148,17 @@ h1 {
   color: var(--sky);
 }
 .text-link:hover { text-decoration: underline; }
+.hero-links { display: flex; flex-wrap: wrap; gap: 8px 28px; }
+
+.video-wrap {
+  border-radius: 28px;
+  overflow: hidden;
+  background: #101114;
+  border: 1px solid var(--line);
+  box-shadow: 0 30px 60px rgba(20, 30, 70, .16), 0 8px 18px rgba(20, 30, 70, .08);
+  aspect-ratio: 16 / 9;
+}
+.video-wrap video { width: 100%; height: 100%; display: block; object-fit: cover; }
 
 .hero-phones { position: relative; height: 560px; }
 .phone { position: absolute; width: 290px; }
